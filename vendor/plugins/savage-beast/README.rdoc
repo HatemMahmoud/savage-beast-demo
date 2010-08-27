@@ -1,0 +1,42 @@
+= Savage Beast
+
+Savage Beast is a Rails Message forum plugin based on the popular Beast plugin.
+The Savage Beast plugin has been installed in hundreds of Rails sites, partially
+because it's the only viable choice for a message forum plugin, but also because
+it incorporates a lot of features that would be a time-consuming headache for you
+to implement yourself.
+
+This version of Savage Beast has been tested working in Rails 2.3.
+
+== Installation instructions
+
+Add in your enviroment.rb
+
+  config.gem 'savage-beast', :lib => 'beast', :source => 'http://gemcutter.org'
+
+Run
+
+  rake gems:install
+
+And then 
+
+  script/generate beast
+
+Install required plugins:
+* white_list
+* white_list_formatted_content
+* acts_as_list
+* gibberish
+* will_paginate
+
+You can found tested versions of these plugins in directory tested_plugins of gem installation.
+Run app and visitL: http://<you app host>/forums
+
+This page provide more info, but it's bit outdated: http://www.williambharding.com/blog/rails/savage-beast-23-a-rails-22-23-message-forum-plugin/
+
+
+
+  
+
+
+

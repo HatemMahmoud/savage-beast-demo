@@ -8,7 +8,8 @@ the forum plugin that is based on the popular Beast forum.
 1. `git clone git://github.com/hatem/savage-beast-demo.git`
 2. `cd savage-beast-demo`
 3. Install required gems: `rake gems:install`
-4. Run the app and enjoy: `script/server`
+4. Run the app: `script/server`
+5. Click the "forums" link and enjoy
 
 ## Use it
 
